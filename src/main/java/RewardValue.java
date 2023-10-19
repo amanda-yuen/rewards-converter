@@ -8,7 +8,7 @@
 public class RewardValue {
 
     private final double cashValue;
-    private final double CONVERT_MILES_TO_CASH = 0.0035;
+    protected static final double CONVERT_MILES_TO_CASH = 0.0035;
 
     public RewardValue(double cashValue) {
         this.cashValue = cashValue;
